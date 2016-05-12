@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="jquery-1.12.3.min.js"></script>
+<script src="vector.js"></script>
+<script src="planet.js"></script>
+<script src="rocket.js"></script>
+<script src="game.js"></script>
+</head>
+<body style="overflow:hidden;margin:0px;padding:0px;background-image:url('stars.jpg')">
+
+<svg style="width:100%;height:100%;position:absolute">
+    <g id="canvas">
+    </g>
+</svg>
+
+<div id="statistics" style="position:absolute;right:0px;width:200px;background-color:#CCC">
+    <table>
+        <tr>
+            <td>Velocity</td><td><span id="velocity"></span></td>
+        </tr>
+        <tr>
+            <td>Thrust</td><td><span id="thrust"></span></td>
+        </tr>
+        <tr>
+            <td>Mass</td><td><span id="mass"></span></td>
+        </tr>
+    </table>
+</div>
+
+
+
+</body>
+</html>
